@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        
+          <img src="imagenes/funday.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">RESERVACIONES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MENU
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">desayuno</a></li>
+                  <li><a class="dropdown-item" href="#">Almuerzo</a></li>
+                  <li><a class="dropdown-item" href="#">cena</a></li>
+                
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">UBICANOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACTANOS</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="buscar" placeholder="buscar" aria-label="buscar">
+              <button class="btn btn-outline-success" type="submit">buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes/images/footer-bg.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>COCINA CON AMOR</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/header.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>COCINA CON AMOR</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/baner.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>COCINA CON AMOR</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<section id="services" class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="service-box">
+          <i class="fas fa-shipping-fast service-icon"></i>
+          <h2>Envíos rápidos y seguros</h2>
+          <p>envios a todo espinar y distritos.</p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="service-box">
+          <i class="fas fa-hand-holding-usd service-icon"></i>
+          <h2>Reembolsos</h2>
+          <p>realizamos reembolsos.</p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="service-box">
+          <i class="fas fa-headset service-icon"></i>
+          <h2>Servicio al cliente 24/7</h2>
+          <p>activo los 24 horas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Restaurante</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Entradas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Platos principales</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Postres</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bebidas</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="galeria">
+  <div class="container">
+    <h2>MENUS</h2>
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-desayuno-tab" data-bs-toggle="pill" data-bs-target="#pills-desayuno" type="button" role="tab" aria-controls="pills-desayuno" aria-selected="true">Desayuno</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-almuerzo-tab" data-bs-toggle="pill" data-bs-target="#pills-almuerzo" type="button" role="tab" aria-controls="pills-almuerzo" aria-selected="false">Almuerzo</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-cena-tab" data-bs-toggle="pill" data-bs-target="#pills-cena" type="button" role="tab" aria-controls="pills-cena" aria-selected="false">Cena</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-desayuno" role="tabpanel" aria-labelledby="pills-desayuno-tab">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="imagenes/images/menu-1.png" class="img-fluid" alt="Desayuno 1">
+            <P>arrios con pato</P>
+            <P>precio 14 s/</P>
+          </div>
+          <div class="col-lg-4">
+            <img src="imagenes/images/menu-2.png" class="img-fluid" alt="Desayuno 2">
+            <P>arrios con pato</P>
+          </div>
+          <div class="col-lg-4">
+            <img src="imagenes/images/menu-3.png" class="img-fluid" alt="Desayuno 3">
+            <P>arrios con pato</P>
+          </div>
+          <div class="col-lg-4">
+            <img src="imagenes/images/menu-4.png" class="img-fluid" alt="Desayuno 3">
+            <P>arrios con pato</P>
+
+          </div>
+          <div class="col-lg-4">
+            <img src="imagenes/images/menu-5.png" class="img-fluid" alt="Desayuno 3">
+            <P>arrios con pato</P>
+          </div>
+          <div class="col-lg-4">
+            <img src="imagenes/images/menu-6.png" class="img-fluid" alt="Desayuno 3">
+            <P>arrios con pato</P>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-almuerzo" role="tabpanel" aria-labelledby="pills-almuerzo-tab">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="imagenes/images/service-1.jpg" class="img-fluid" alt="Almuerzo 1">
+            <P>arrios con pato</P>
+          </div>
+          <div class="col-lg-4">
+            <img src="imagenes/images/service-2.jpg" class="img-fluid" alt="Almuerzo 2">
+            <P>arrios con pato</P>
+          </div>
+          <div class="col-lg-4">
+            <img src="imagenes/images/service-3.jpg" class="img-fluid" alt="Almuerzo 3">
+            <P>arrios con pato</P>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-cena" role="tabpanel" aria-labelledby="pills-cena-tab">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="imagenes/images/event-1.jpg" class="img-fluid" alt="Cena 1">
+            <P>arrios con pato</P>
+          </div>
+          <div class="col-lg-4">
+            <img src="imagenes/images/event-2.jpg" class="img-fluid" alt="Cena 2">
+            <P>arrios con pato</P>
+          </div>
+          <div class="col-lg-4">
+            <img src="imagenes/images/event-3.jpg" class="img-fluid" alt="Cena 3">
+            <P>arrios con pato</P>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="nosotros" class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>NOSOTROS</h2>
+        <p>"Somos SABOR DEL MAR, somos un restaurante de venta de comida Nos enorgullece ofrecer nuestros desayuno,
+           almuerzo, cena Con expresar la cantidad de años de experiencia nos hemos posicionado como líderes en destacando nuestros platos.
+            Nuestro objetivo es dar a conocer para ofrece a los clientes Estamos comprometidos con la excelencia y la satisfacción del cliente,
+             ¡Nos encantaría ser parte de tu éxito! Contáctanos para más información."</p>
+      </div>
+      <div class="col-lg-6">
+        <img src="imagenes/images/about-abs-image.jpg" alt="Imagen de nosotros" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+ <section id="mision-vision" class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Misión</h2>
+        <p>"Cocina con Amor" es convertirnos en un referente gastronómico reconocido,
+          tanto a nivel local como nacional, por nuestra calidad culinaria excepcional,
+           servicio impecable y la capacidad de transmitir emociones a través de cada plato.
+            Queremos ser el lugar al que las personas acudan en busca 
+            de una experiencia gastronómica única.</p>
+      </div>
+      <div class="col-lg-6">
+        <h2>Visión</h2>
+        <p>crear una experiencia en línea que refleje la esencia de tu restaurante,
+          resaltando tus platos deliciosos, un ambiente acogedor y un servicio excepcional.
+         Además, podrías incorporar elementos visuales atractivos, menús interactivos, 
+         reservas en línea y testimonios de clientes satisfechos para generar confianza 
+         y atraer a más comensales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contacto" class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Contáctanos</h2>
+        <p>Si tienes alguna pregunta o consulta, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte.</p>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> Dirección: av sol, espinar, peru</li>
+          <li><i class="fas fa-phone"></i> Teléfono: +51 925 310 257</li>
+          <li><i class="fas fa-envelope"></i> Correo electrónico: bryanyontc@gmail.com</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <form>
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre">
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea class="form-control" id="mensaje" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="card">
+  <img src="imagenes/arroz.jpg" class="card-img-top" alt="Nombre del plato">
+  <div class="card-body">
+    <h5 class="card-title">Nombre del plato</h5>
+    <p class="card-text">Descripción del plato.</p>
+    <a href="#" class="btn btn-primary">Ver más</a>
+  </div>
+</div>
+<div class="card">
+  <img src="imagenes/aji de gallina.jpg" class="card-img-top" alt="Nombre del plato">
+  <div class="card-body">
+    <h5 class="card-title">Nombre del plato</h5>
+    <p class="card-text">Descripción del plato.</p>
+    <a href="#" class="btn btn-primary">Ver más</a>
+  </div>
+</div>
+<div class="card">
+  <img src="imagenes/CAUSA.jpg" class="card-img-top" alt="Nombre del plato">
+  <div class="card-body">
+    <h5 class="card-title">Nombre del plato</h5>
+    <p class="card-text">Descripción del plato.</p>
+    <a href="#" class="btn btn-primary">Ver más</a>
+  </div>
+</div>
+
+<section id="reservas" class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Reserva tu mesa</h2>
+        <p>Completa el formulario a continuación para reservar una mesa en nuestro restaurante.</p>
+        <form>
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="fecha">Fecha:</label>
+            <input type="date" class="form-control" id="fecha" required>
+          </div>
+          <div class="form-group">
+            <label for="hora">Hora:</label>
+            <input type="time" class="form-control" id="hora" required>
+          </div>
+          <div class="form-group">
+            <label for="personas">Número de personas:</label>
+            <input type="number" class="form-control" id="personas" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Reservar</button>
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <img src="imagenes/images/about-banner.jpg" alt="Imagen del restaurante" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="blog" class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>BLOG</h2>
+        <div class="card-deck">
+          <div class="card">
+            <img src="imagenes/chela.jpeg" class="card-img-top" alt="Imagen de entrada 1">
+            <div class="card-body">
+              <h5 class="card-title">BEBIDAS</h5>
+              <p class="card-text">tanbien tenemos las mejores bebidas para ud y para su familia y amigos.</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imagenes/probo4.jpg" class="card-img-top" alt="Imagen de entrada 2">
+            <div class="card-body">
+              <h5 class="card-title">HAMBURGUESAS</h5>
+              <p class="card-text">tenemos las mejores anburguesas .</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+
+
+  <section id="chefs" class="bg-light">
+    <div class="container">
+      <h2>Nuestros Chefs</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="imagenes/cheff1.jpg" class="card-img-top" alt="Chef 1">
+            <div class="card-body">
+              <h5 class="card-title">jose manuel mamani</h5>
+              <p class="card-text">Especialidad: Especialidad del Chef 1</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="imagenes/cheff2.jpg" class="card-img-top" alt="Chef 2">
+            <div class="card-body">
+              <h5 class="card-title">pedro quispe</h5>
+              <p class="card-text">Especialidad: Especialidad del Chef 2</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="imagenes/cheff3.jpg" class="card-img-top" alt="Chef 3">
+            <div class="card-body">
+              <h5 class="card-title">Ana huallpa</h5>
+              <p class="card-text">Especialidad: Especialidad del Chef 3</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h5>Contáctanos</h5>
+          <p>Dirección: av mariscal , espinar, peru</p>
+          <p>Teléfono: +51 930 456 432</p>
+          <p>Correo electrónico: cocinaconamor@gmail.com</p>
+        </div>
+        <div class="col-lg-4">
+          <h5>Síguenos en redes sociales</h5>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://web.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h5>Enlaces útiles</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p>&copy; 2023 COCINA CON AMOR. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</section>
+</body>
+</html>
